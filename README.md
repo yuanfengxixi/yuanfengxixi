@@ -18,7 +18,8 @@
 - [obsidian-work-templates](https://github.com/yuanfengxixi/obsidian-work-templates) — nine reusable Obsidian templates; MIT licensed; [v0.1.0](https://github.com/yuanfengxixi/obsidian-work-templates/releases/tag/v0.1.0).
 - [wxml-markdown-blocks](https://github.com/yuanfengxixi/wxml-markdown-blocks) — dependency-free Markdown subset parser that produces WeChat Mini Program WXML-friendly blocks.
 - [cloudbase-seo-audit](https://github.com/yuanfengxixi/cloudbase-seo-audit) — MIT-licensed CloudBase functions for SSRF-safe public-site checks, shared rate limiting, and cleanup; 12 tests and Node 20/22 CI pass; [v0.1.0](https://github.com/yuanfengxixi/cloudbase-seo-audit/releases/tag/v0.1.0).
-- [feishu-paperclip-bridge](https://github.com/yuanfengxixi/feishu-paperclip-bridge) — MIT-licensed Windows/WSL2 networking and process bridge for Feishu bots, cc-connect, and Paperclip; security-focused JWT launcher validation is under review in [PR #1](https://github.com/yuanfengxixi/feishu-paperclip-bridge/pull/1).
+- [feishu-paperclip-bridge](https://github.com/yuanfengxixi/feishu-paperclip-bridge) — MIT-licensed Windows/WSL2 networking and process bridge for Feishu bots, cc-connect, and Paperclip; the secret-safe JWT launch fix was merged in [PR #1](https://github.com/yuanfengxixi/feishu-paperclip-bridge/pull/1), with validation and Windows route parsing checks passing.
+- [xiaogou](https://github.com/yuanfengxixi/xiaogou) — MIT-licensed Godot 4.6 cultivation roguelike; headless tests cover player, talent, task, and hex mechanics, with 328 assertions passing in CI.
 
 ## Tech
 
