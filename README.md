@@ -6,16 +6,20 @@
 
 - **TencentCloudBase/CloudBase-AI-Toolkit** — [#1355](https://github.com/TencentCloudBase/CloudBase-AI-Toolkit/pull/1355), [#1356](https://github.com/TencentCloudBase/CloudBase-AI-Toolkit/pull/1356), [#1357](https://github.com/TencentCloudBase/CloudBase-AI-Toolkit/pull/1357): clarified signed storage URL behavior, retained function handlers on ZIP updates, and documented signed-download cache headers. All three PRs were merged.
 
-## In review
+## Open pull requests
 
 - **chenhg5/cc-connect #2260** — preserves Telegram topic and Feishu thread scope when routing relay workspaces. Maintainer-approved; six CI checks passed; awaiting merge.
-- **Tencent/BrowserSkill #739, #740, #750, #751** — window resize partial-success reporting, blank-tab recovery guidance, opt-in native-input clock fallback, and explicit idle extension reload. These PRs are open and have not been merged.
+- **Tencent/BrowserSkill #739** — reports partial success when the OS constrains a requested window size; GitHub shows the branch as mergeable, CodeCC passed, and review is pending.
+- **Tencent/BrowserSkill #740, #750, #751, #752** — blank-tab recovery guidance, opt-in native-input clock fallback, explicit idle extension reload, and wheel input recovery when OOPIF visibility measurement stalls. These PRs remain open and unmerged.
 
 ## Open-source projects
 
 - [knowknow-mini-program](https://github.com/yuanfengxixi/knowknow-mini-program) — sanitized WeChat Mini Program and Tencent CloudBase source, with Node 20/22 CI.
 - [obsidian-work-templates](https://github.com/yuanfengxixi/obsidian-work-templates) — nine reusable Obsidian templates; MIT licensed; [v0.1.0](https://github.com/yuanfengxixi/obsidian-work-templates/releases/tag/v0.1.0).
 - [wxml-markdown-blocks](https://github.com/yuanfengxixi/wxml-markdown-blocks) — dependency-free Markdown subset parser that produces WeChat Mini Program WXML-friendly blocks.
+- [cloudbase-seo-audit](https://github.com/yuanfengxixi/cloudbase-seo-audit) — MIT-licensed CloudBase functions for SSRF-safe public-site checks, shared rate limiting, and cleanup; 12 tests and Node 20/22 CI pass; [v0.1.0](https://github.com/yuanfengxixi/cloudbase-seo-audit/releases/tag/v0.1.0).
+- [feishu-paperclip-bridge](https://github.com/yuanfengxixi/feishu-paperclip-bridge) — MIT-licensed Windows/WSL2 networking and process bridge for Feishu bots, cc-connect, and Paperclip; the secret-safe JWT launch fix was merged in [PR #1](https://github.com/yuanfengxixi/feishu-paperclip-bridge/pull/1), with validation and Windows route parsing checks passing.
+- [xiaogou](https://github.com/yuanfengxixi/xiaogou) — MIT-licensed Godot 4.6 cultivation roguelike; headless tests cover player, talent, task, and hex mechanics, with 328 assertions passing in CI.
 
 ## Tech
 
