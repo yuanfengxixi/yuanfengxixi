@@ -21,8 +21,8 @@
 - [cloudbase-seo-audit](https://github.com/yuanfengxixi/cloudbase-seo-audit) — MIT-licensed CloudBase functions for SSRF-safe public-site checks, shared rate limiting, and cleanup; 12 tests and Node 20/22 CI pass; [v0.1.0](https://github.com/yuanfengxixi/cloudbase-seo-audit/releases/tag/v0.1.0).
 - [feishu-paperclip-bridge](https://github.com/yuanfengxixi/feishu-paperclip-bridge) — MIT-licensed Windows/WSL2 networking and process bridge for Feishu bots, cc-connect, and Paperclip; the secret-safe JWT launch fix was merged in [PR #1](https://github.com/yuanfengxixi/feishu-paperclip-bridge/pull/1), with validation and Windows route parsing checks passing.
 - [xiaogou](https://github.com/yuanfengxixi/xiaogou) — MIT-licensed Godot 4.6 cultivation roguelike; 352 headless assertions cover player, talent, task, hex, and reincarnation mechanics. CI runs unit tests and Android APK export for code PRs.
-- [xhs-video-transcribe](https://github.com/yuanfengxixi/xhs-video-transcribe) — MIT-licensed local video/audio transcription CLI using faster-whisper; 10 tests, with Python 3.11 and 3.12 CI.
-- [yuanfengxixi-website-source](https://github.com/yuanfengxixi/yuanfengxixi-website-source) — MIT-licensed public static website source with an allowlisted build that excludes internal operations data; Node 20/22 CI passes.
+- [xhs-video-transcribe](https://github.com/yuanfengxixi/xhs-video-transcribe) — MIT-licensed local video/audio transcription CLI using faster-whisper; 10 tests, Python 3.11/3.12 CI; [v0.1.0](https://github.com/yuanfengxixi/xhs-video-transcribe/releases/tag/v0.1.0).
+- [yuanfengxixi-website-source](https://github.com/yuanfengxixi/yuanfengxixi-website-source) — MIT-licensed public static website source with an allowlisted build that excludes internal operations data; Node 20/22 CI; [v0.1.0](https://github.com/yuanfengxixi/yuanfengxixi-website-source/releases/tag/v0.1.0).
 
 ## Tech
 
