@@ -9,8 +9,9 @@
 ## Open pull requests
 
 - **chenhg5/cc-connect #2260** — preserves Telegram topic and Feishu thread scope when routing relay workspaces. Maintainer-approved; six CI checks passed; awaiting merge.
-- **Tencent/BrowserSkill #739** — reports partial success when the OS constrains a requested window size; GitHub shows the branch as mergeable, CodeCC passed, and review is pending.
-- **Tencent/BrowserSkill #740, #750, #751, #752** — blank-tab recovery guidance, opt-in native-input clock fallback, explicit idle extension reload, and wheel input recovery when OOPIF visibility measurement stalls. These PRs remain open and unmerged.
+- **Tencent/BrowserSkill #739** — reports partial success when the OS constrains a requested window size; CodeCC passed and review is pending.
+- **Tencent/BrowserSkill #740, #750, #751, #752** — blank-tab recovery guidance, opt-in native-input clock fallback, explicit idle extension reload, and wheel input recovery when OOPIF visibility measurement stalls. CodeCC passed; review is pending.
+- **Tencent/BrowserSkill #760** — bounds Chrome debugger attach waits and fences late completions; CodeCC passed, while GitHub Actions shows `action_required` with no jobs. The PR is open and review is pending; Vivaldi was not available for a live repro.
 
 ## Open-source projects
 
@@ -20,6 +21,7 @@
 - [cloudbase-seo-audit](https://github.com/yuanfengxixi/cloudbase-seo-audit) — MIT-licensed CloudBase functions for SSRF-safe public-site checks, shared rate limiting, and cleanup; 12 tests and Node 20/22 CI pass; [v0.1.0](https://github.com/yuanfengxixi/cloudbase-seo-audit/releases/tag/v0.1.0).
 - [feishu-paperclip-bridge](https://github.com/yuanfengxixi/feishu-paperclip-bridge) — MIT-licensed Windows/WSL2 networking and process bridge for Feishu bots, cc-connect, and Paperclip; the secret-safe JWT launch fix was merged in [PR #1](https://github.com/yuanfengxixi/feishu-paperclip-bridge/pull/1), with validation and Windows route parsing checks passing.
 - [xiaogou](https://github.com/yuanfengxixi/xiaogou) — MIT-licensed Godot 4.6 cultivation roguelike; 352 headless assertions cover player, talent, task, hex, and reincarnation mechanics. CI runs unit tests and Android APK export for code PRs.
+- [xhs-video-transcribe](https://github.com/yuanfengxixi/xhs-video-transcribe) — MIT-licensed local video/audio transcription CLI using faster-whisper; 10 tests, with Python 3.11 and 3.12 CI.
 
 ## Tech
 
