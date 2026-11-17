@@ -22,7 +22,7 @@
 - [feishu-paperclip-bridge](https://github.com/yuanfengxixi/feishu-paperclip-bridge) — MIT-licensed Windows/WSL2 networking and process bridge for Feishu bots, cc-connect, and Paperclip; the secret-safe JWT launch fix was merged in [PR #1](https://github.com/yuanfengxixi/feishu-paperclip-bridge/pull/1), with validation and Windows route parsing checks passing.
 - [xiaogou](https://github.com/yuanfengxixi/xiaogou) — MIT-licensed Godot 4.6 cultivation roguelike; 352 headless assertions cover player, talent, task, hex, and reincarnation mechanics. CI runs unit tests and Android APK export for code PRs.
 - [xhs-video-transcribe](https://github.com/yuanfengxixi/xhs-video-transcribe) — MIT-licensed local video/audio transcription CLI using faster-whisper; 10 tests, Python 3.11/3.12 CI; [v0.1.0](https://github.com/yuanfengxixi/xhs-video-transcribe/releases/tag/v0.1.0).
-- [demo_claude](https://github.com/yuanfengxixi/demo_claude) — MIT-licensed Claude Code plugin for the local transcription CLI; structural validation and Python 3.11/3.12 CI; [v0.1.0](https://github.com/yuanfengxixi/demo_claude/releases/tag/v0.1.0).
+- [demo_claude](https://github.com/yuanfengxixi/demo_claude) — MIT-licensed `local-media-transcribe` Claude Code plugin for the local CLI; official plugin validation passed with only an optional icon notice, Python 3.11/3.12 CI; [v0.1.1](https://github.com/yuanfengxixi/demo_claude/releases/tag/v0.1.1).
 - [yuanfengxixi-website-source](https://github.com/yuanfengxixi/yuanfengxixi-website-source) — MIT-licensed public static website source with an allowlisted build that excludes internal operations data; Node 20/22 CI; [v0.1.0](https://github.com/yuanfengxixi/yuanfengxixi-website-source/releases/tag/v0.1.0).
 
 ## Tech
